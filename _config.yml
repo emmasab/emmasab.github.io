@@ -25,15 +25,13 @@ harmony:
   name: Emma Saboureau
   description: > #
       Hey there, my name's Emma Saboureau. I'm currently studying Computer Science in Montreal at Concordia University.
-  meta_description: > #
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Source code available at 
-   https://githu"b.com/gayanvirajith/harmony
   basetheme: redish # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Emma Saboureau
     email: info@emmasab.com
     url: "http://127.0.0.1:4000"
+
+  show_footer_links: true
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-57591451-1
@@ -42,3 +40,4 @@ harmony:
   social: 
     github: emsab
     twitter: emmazabs
+    linkedin: emmasaboureau

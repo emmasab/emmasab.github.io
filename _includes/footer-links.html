@@ -1,8 +1,38 @@
 {% if site.harmony.show_footer_links %}
 <h6>Few more links</h6>
 <ul class="menu">
-    <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a></li>
-    <li><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
-    <li><a href="{{ '/faq' | prepend: site.baseurl | prepend: site.url }}">Help / FAQ</a></li>    
+
+  {% if site.harmony.social.twitter %}
+  <li>
+      <a title="{{ site.harmony.social.twitter }} on Twitter" 
+          href="https://twitter.com/{{ site.harmony.social.twitter }}" 
+          target="_blank">Twitter</a>
+  </li>   
+  {% endif %}
+
+  {% if site.harmony.social.github %}
+  <li>
+      <a title="{{ site.harmony.social.github }} on github" 
+          href="https://github.com/{{ site.harmony.social.github }}" 
+          target="_blank">Github</a>
+  </li>   
+  {% endif %}
+
+  {% if site.harmony.social.linkedin %}
+  <li>
+      <a title="{{ site.harmony.social.linkedin }} on LinkedIn" 
+          href="https://linkedin.com/in/{{ site.harmony.social.linkedin }}" 
+          target="_blank">LinkedIn</a>
+  </li>   
+  {% endif %}
+
+  {% if site.harmony.author.email %}
+  <li>
+      <a title="Email me!" 
+          href="mailto:{{ site.harmony.author.email }}" 
+          target="_blank">Email me!</a>
+  </li>   
+  {% endif %}
+
 </ul>		
 {% endif %}

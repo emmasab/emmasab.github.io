@@ -1,7 +1,7 @@
+{% if site.harmony.show_footer_social %}
 <h6>Follow me</h6>
 
 <ul class="social-media">
-
 
     {% if site.harmony.social.twitter %}
     <li>
@@ -51,4 +51,12 @@
     </li> 
     {% endif %}
 
+    {% if site.harmony.social.linkedin %}
+    <li>
+        <a title="{{ site.harmony.social.linkedin }} on LinkedIn" 
+            href="https://linkedin.com/in/{{ site.harmony.social.linkedin }}" 
+            class="linkedin wc-img-replace" target="_blank">LinkedIn</a>
+    </li> 
+    {% endif %}
 </ul>
+{% endif %}
