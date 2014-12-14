@@ -1,14 +1,44 @@
 # Site settings
-title: Emma Saboureau
-email: contact@emmasab.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: emmazabs
-github_username:  emsab
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+
+exclude:
+  - CNAME
+  - README.md
+  - .gitignore
+
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
+
+# Harmony theme configuration. 
+harmony:
+  name: Emma Saboureau
+  description: > #
+      Hey there, my name's Emma Saboureau. I'm currently studying Computer Science in Montreal at Concordia University.
+  meta_description: > #
+   Harmony is a free responsive jekyll theme by Gayan Virajith
+   and Maheshika Lakmali. Source code available at 
+   https://githu"b.com/gayanvirajith/harmony
+  basetheme: redish # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Emma Saboureau
+    email: info@emmasab.com
+    url: "http://127.0.0.1:4000"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: 
+
+  # Profile links, leave blank to ignore
+  social: 
+    github: emsab
+    twitter: emmazabs
