@@ -22,14 +22,12 @@ sass:
 
 # Harmony theme configuration. 
 harmony:
-  name: Emma Saboureau
+  name: Emma Sab
   description: > #
-      Hey there, my name's Emma Saboureau. I'm currently studying Computer Science in Montreal at Concordia University.
+      Hey there, my name's Emma Sab.
   basetheme: redish # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Emma Saboureau
-    email: info@emmasab.com
-    url: "http://emmasab.com"
+    name: Emma Sab
 
   show_footer_links: true
 
